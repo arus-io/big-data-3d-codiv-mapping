@@ -1,5 +1,4 @@
-This is a minimal standalone version of the HexagonLayer example
-on [deck.gl](http://deck.gl) website.
+This is a minimal standalone version of mapping geographic covid numbers per region against severity scores
 
 ### Usage
 
@@ -14,13 +13,5 @@ yarn
 npm start
 ```
 
-### Data format
+![Screen Shot 2021-03-04 at 2 05 24 PM](https://user-images.githubusercontent.com/444888/110030742-5337e000-7cf3-11eb-96a2-d9710a7960f6.png)
 
-Sample data is stored in [deck.gl Example Data](https://github.com/visgl/deck.gl-data/tree/master/examples/3d-heatmap), showing personal injury from road accidents in the UK. [Source](https://data.gov.uk)
-
-To use your own data, check out
-the [documentation of HexagonLayer](../../../docs/api-/reference/aggregation-layers/hexagon-layer.md)
-
-### Basemap
-
-The basemap in this example is provided by [CARTO free basemap service](https://carto.com/basemaps). To use an alternative base map solution, visit [this guide](https://deck.gl/docs/get-started/using-with-map#using-other-basemap-services)
